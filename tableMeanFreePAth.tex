@@ -1,0 +1,71 @@
+\documentclass[xcolor=table]{beamer}
+\usetheme{Warsaw}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{siunitx}
+\usepackage[table]{xcolor} 
+\usepackage{color, colortbl}
+
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{lightgray}{gray}{0.9}
+\begin{document}
+
+
+\begin{frame}{• Mean Free Path-2}
+
+
+MFP increases as the pressure decreases.Approx relation $ l (cm) ~= \frac{.005}{P (Torr)} $
+
+
+\begin{center}
+     \rowcolors{1}{}{LightCyan}
+    % \rowcolors{1}{1}{lightgray}{LightCyan} %-- this indicates the change in odd and pair rows
+    \begin{tabular}{ | l | l | l | }
+   
+    \hline
+   \rowcolor{lightgray}
+   
+    \color{red}{Pr}. & Molecular Density & MFP\\ \hline
+   
+    1013 mbar (ATM) 
+    & \num[round-precision=2,round-mode=figures,
+     scientific-notation=true]{3e-19} 
+    & \num[round-precision=2,round-mode=figures,
+    scientific-notation=true]{6.4e-5} mm  \\ \hline
+	
+	\num[round-precision=2,round-mode=figures,
+     scientific-notation=true]{1e-3}  mbar  
+    & \num[round-precision=2,round-mode=figures,
+     scientific-notation=true]{4e-13} 
+    & 5.1 mm  \\ \hline
+    
+    \num[round-precision=2,round-mode=figures,
+     scientific-notation=true]{1e-6}  mbar  
+    & \num[round-precision=2,round-mode=figures,
+     scientific-notation=true]{4e-10} 
+    & 510 cm  \\ \hline
+     
+    \num[round-precision=2,round-mode=figures,
+     scientific-notation=true]{1e-9}  mbar  
+    & \num[round-precision=2,round-mode=figures,
+     scientific-notation=true]{4e-7} 
+    & \alert{50 km}  \\ \hline 
+     
+    
+                   
+    
+    %\hline
+    \end{tabular}
+\end{center}	
+
+
+
+
+
+\end{frame}
+
+\end{document}
